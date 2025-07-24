@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body{
+                background-color:blanchedalmond ;
+            }
+            </style>
+    </head>
+    <body>
+        <p style="color:Black;font-size: 50px; text-align: center">RAMCO INSTITUTE OF TECHNOLOGY</p>
+        <img src="ramco.jpg" width="500px" height="500px">
+    <form action="SubmitServlet" method="post" enctype:"multipart/form">
+        <label for="fullname">Fullname</label><br>
+        <input type="text" id="fullname" name="fulllname"><br>
+        <label for="password">Password:</label><br>
+        <input type="Password" id="password" name="password"><br>
+        <label for="Email">Mail</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="dob">Date of birth</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label>Department</label><br>
+        <input type="checkbox" id="CSE" name="department" value="CSE">
+        <label for="cse">CSE</label><br>
+        <input type="checkbox" id="EEE" name="department" value="EEE">
+        <label for="EEE">EEE</label><br>
+        <input type="checkbox" id="ECE" name="department" value="ECE">
+        <label for="ECE">ECE</label><br>
+        <label for="Accomodation">Accomodation</label><br>
+        <select id="Accomodation" name="accomodation">
+            <option value="">SELECT</option>
+            <option value="Hostel">Hostel</option>
+            <option value="Dayscholar">Dayscholar</option>
+    
+        </select><br>
+        <label for="Address">Address:</label><br>
+        <textarea id="address" name="Address" rows="4" cols="40"></textarea><br>
+        <label for="resume">Upload File</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+        <input type="Submit" value="Submit Form"><br><br>
+        <input type="reset" value="Reset Form"><br><br>
+        <center>
+            <b><a href="mailto:dharanisamidurai@gmail.com">Mail</b><br>
+        <b><a href="tel:+918122756012">Contact</a></b><br><br>
+        <b><a href="https://www.ritrjpm.ac.in/">About us</a></b>
+        </center>
+        
+  
+
+    </form>
+</body>
+</html>
